@@ -1,8 +1,11 @@
+
 <footer class="bg-white">
-    <div class="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
-      <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
-        <div>
-          <div class="text-teal-600">
+    <div class="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8">
+      <div class="lg:grid lg:grid-cols-2">
+        <div
+          class="border-b border-gray-100 py-8 lg:order-last lg:border-b-0 lg:border-s lg:py-16 lg:ps-16"
+        >
+          <div class="block text-teal-600 lg:hidden">
             <svg class="h-8" viewBox="0 0 118 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M37.83 19.2047C37.2352 19.237 36.6469 19.0679 36.16 18.7247C35.9566 18.5739 35.7929 18.3758 35.6831 18.1476C35.5733 17.9193 35.5208 17.6678 35.53 17.4147V8.1447C35.5252 8.1055 35.5293 8.0656 35.5422 8.0282C35.555 7.9908 35.5762 7.9569 35.6042 7.9289C35.6322 7.9009 35.6661 7.8797 35.7035 7.8669C35.7409 7.854 35.7808 7.8499 35.82 7.8547H37.5C37.69 7.8547 37.78 7.9547 37.78 8.1447V16.6947C37.78 17.0747 37.95 17.2647 38.3 17.2647C38.4484 17.2708 38.5968 17.254 38.74 17.2147C38.94 17.2147 39.05 17.2747 39.06 17.4547L39.21 18.7047C39.2172 18.7412 39.2165 18.7787 39.208 18.8149C39.1995 18.851 39.1833 18.885 39.1605 18.9143C39.1378 18.9437 39.109 18.9679 39.0762 18.9852C39.0433 19.0025 39.0071 19.0126 38.97 19.0147C38.602 19.1363 38.2175 19.2004 37.83 19.2047Z"
@@ -47,194 +50,129 @@
             </svg>
           </div>
 
-          <p class="mt-4 max-w-xs text-gray-500">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non cupiditate quae nam
-            molestias.
-          </p>
+          <div class="mt-8 space-y-4 lg:mt-0">
+            <span class="hidden h-1 w-10 rounded bg-teal-500 lg:block"></span>
 
-          <ul class="mt-8 flex gap-6">
-            <li>
-              <a
-                href="#"
-                rel="noreferrer"
-                target="_blank"
-                class="text-gray-700 transition hover:opacity-75"
+            <div>
+              <h2 class="text-2xl font-medium text-gray-900">Request a Demo</h2>
+
+              <p class="mt-4 max-w-lg text-gray-500">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, harum deserunt
+                nesciunt praesentium, repellendus eum perspiciatis ratione pariatur a aperiam eius
+                numquam doloribus asperiores sunt.
+              </p>
+            </div>
+
+            <form class="mt-6 w-full">
+              <label for="UserEmail" class="sr-only"> Email </label>
+
+              <div
+                class="rounded-md border border-gray-100 p-2 focus-within:ring sm:flex sm:items-center sm:gap-4"
               >
-                <span class="sr-only">Facebook</span>
+                <input
+                  type="email"
+                  id="UserEmail"
+                  placeholder="john@rhcp.com"
+                  class="w-full border-none focus:border-transparent focus:ring-transparent sm:text-sm"
+                />
 
-                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    fill-rule="evenodd"
-                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#"
-                rel="noreferrer"
-                target="_blank"
-                class="text-gray-700 transition hover:opacity-75"
-              >
-                <span class="sr-only">Instagram</span>
-
-                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    fill-rule="evenodd"
-                    d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#"
-                rel="noreferrer"
-                target="_blank"
-                class="text-gray-700 transition hover:opacity-75"
-              >
-                <span class="sr-only">Twitter</span>
-
-                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
-                  />
-                </svg>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#"
-                rel="noreferrer"
-                target="_blank"
-                class="text-gray-700 transition hover:opacity-75"
-              >
-                <span class="sr-only">GitHub</span>
-
-                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    fill-rule="evenodd"
-                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#"
-                rel="noreferrer"
-                target="_blank"
-                class="text-gray-700 transition hover:opacity-75"
-              >
-                <span class="sr-only">Dribbble</span>
-
-                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    fill-rule="evenodd"
-                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </a>
-            </li>
-          </ul>
+                <button
+                  class="mt-1 w-full rounded bg-teal-500 px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-teal-600 sm:mt-0 sm:w-auto sm:shrink-0"
+                >
+                  Sign Up
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
 
-        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
-          <div>
-            <p class="font-medium text-gray-900">Services</p>
-
-            <ul class="mt-6 space-y-4 text-sm">
-              <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75"> 1on1 Coaching </a>
-              </li>
-
-              <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75"> Company Review </a>
-              </li>
-
-              <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
-              </li>
-
-              <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75"> HR Consulting </a>
-              </li>
-
-              <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75"> SEO Optimisation </a>
-              </li>
-            </ul>
+        <div class="py-8 lg:py-16 lg:pe-16">
+          <div class="hidden text-teal-600 lg:block">
+            <svg xmlns="http://www.w3.org/2000/svg" class="" style="margin-left: -105px; margin-top: -110px;" xmlns:xlink="http://www.w3.org/1999/xlink" width="300"  viewBox="0 0 810 809.999993" height="300" preserveAspectRatio="xMidYMid meet" version="1.0"><defs><g/><clipPath id="44b505161d"><path d="M 245.476562 516.878906 L 270.40625 516.878906 L 270.40625 541.808594 L 245.476562 541.808594 Z M 245.476562 516.878906 " clip-rule="nonzero"/></clipPath><clipPath id="9c21e62f65"><path d="M 257.941406 516.878906 C 251.058594 516.878906 245.476562 522.460938 245.476562 529.34375 C 245.476562 536.226562 251.058594 541.808594 257.941406 541.808594 C 264.824219 541.808594 270.40625 536.226562 270.40625 529.34375 C 270.40625 522.460938 264.824219 516.878906 257.941406 516.878906 Z M 257.941406 516.878906 " clip-rule="nonzero"/></clipPath><clipPath id="fdbc28021a"><path d="M 268 326 L 328 326 L 328 386 L 268 386 Z M 268 326 " clip-rule="nonzero"/></clipPath><clipPath id="d69c936dcc"><path d="M 301.578125 314.632812 L 340.023438 359.570312 L 295.089844 398.015625 L 256.640625 353.078125 Z M 301.578125 314.632812 " clip-rule="nonzero"/></clipPath><clipPath id="10c958efe2"><path d="M 320.800781 337.101562 C 310.183594 324.691406 291.519531 323.238281 279.109375 333.855469 C 266.699219 344.472656 265.25 363.140625 275.863281 375.546875 C 286.480469 387.957031 305.148438 389.410156 317.554688 378.792969 C 329.964844 368.175781 331.417969 349.507812 320.800781 337.101562 Z M 320.800781 337.101562 " clip-rule="nonzero"/></clipPath><clipPath id="c9957d453b"><path d="M 268 326 L 328 326 L 328 386 L 268 386 Z M 268 326 " clip-rule="nonzero"/></clipPath><clipPath id="06e0450161"><path d="M 301.578125 314.632812 L 340.109375 359.667969 L 295.074219 398.199219 L 256.542969 353.164062 Z M 301.578125 314.632812 " clip-rule="nonzero"/></clipPath><clipPath id="be6e2d8d82"><path d="M 301.578125 314.632812 L 340.019531 359.5625 L 295.089844 398.003906 L 256.648438 353.074219 Z M 301.578125 314.632812 " clip-rule="nonzero"/></clipPath><clipPath id="bd5a6e1b20"><path d="M 320.796875 337.097656 C 310.183594 324.691406 291.519531 323.238281 279.113281 333.851562 C 266.707031 344.46875 265.253906 363.132812 275.867188 375.539062 C 286.484375 387.945312 305.148438 389.398438 317.554688 378.78125 C 329.960938 368.167969 331.414062 349.503906 320.796875 337.097656 Z M 320.796875 337.097656 " clip-rule="nonzero"/></clipPath><clipPath id="08bfeffed5"><path d="M 138 351 L 435 351 L 435 647 L 138 647 Z M 138 351 " clip-rule="nonzero"/></clipPath><clipPath id="b85d364ff4"><path d="M 302.253906 351.695312 L 434.828125 506.644531 L 271.402344 646.46875 L 138.828125 491.519531 Z M 302.253906 351.695312 " clip-rule="nonzero"/></clipPath><clipPath id="244e8eb049"><path d="M 302.253906 351.695312 L 434.828125 506.644531 L 271.523438 646.363281 L 138.949219 491.414062 Z M 302.253906 351.695312 " clip-rule="nonzero"/></clipPath><clipPath id="0d3c0a7b2d"><path d="M 288 346 L 309 346 L 309 367 L 288 367 Z M 288 346 " clip-rule="nonzero"/></clipPath><clipPath id="a4232e2585"><path d="M 299.425781 342.296875 L 312.363281 357.417969 L 297.242188 370.351562 L 284.304688 355.234375 Z M 299.425781 342.296875 " clip-rule="nonzero"/></clipPath><clipPath id="7171a13498"><path d="M 305.894531 349.855469 C 302.320312 345.679688 296.039062 345.191406 291.863281 348.765625 C 287.6875 352.335938 287.199219 358.617188 290.773438 362.792969 C 294.34375 366.96875 300.625 367.457031 304.800781 363.882812 C 308.976562 360.3125 309.464844 354.03125 305.894531 349.855469 Z M 305.894531 349.855469 " clip-rule="nonzero"/></clipPath></defs><g clip-path="url(#44b505161d)"><g clip-path="url(#9c21e62f65)"><path fill="#0097b2" d="M 245.476562 516.878906 L 270.40625 516.878906 L 270.40625 541.808594 L 245.476562 541.808594 Z M 245.476562 516.878906 " fill-opacity="1" fill-rule="nonzero"/></g></g><g clip-path="url(#fdbc28021a)"><g clip-path="url(#d69c936dcc)"><g clip-path="url(#10c958efe2)"><path fill="#ffffff" d="M 301.578125 314.632812 L 340.023438 359.570312 L 295.089844 398.015625 L 256.640625 353.078125 Z M 301.578125 314.632812 " fill-opacity="1" fill-rule="nonzero"/></g></g></g><g clip-path="url(#c9957d453b)"><g clip-path="url(#06e0450161)"><g clip-path="url(#be6e2d8d82)"><g clip-path="url(#bd5a6e1b20)"><path stroke-linecap="butt" transform="matrix(0.389216, 0.454908, -0.454908, 0.389216, 301.577626, 314.632855)" fill="none" stroke-linejoin="miter" d="M 49.381587 0.00183865 C 22.111121 0.0000577128 -0.000248262 22.109954 -0.0020292 49.380419 C 0.00114754 76.655126 22.111044 98.766496 49.381509 98.768277 C 76.656216 98.7651 98.767586 76.655204 98.764409 49.380497 C 98.76619 22.110032 76.656294 -0.00133809 49.381587 0.00183865 Z M 49.381587 0.00183865 " stroke="#0097b2" stroke-width="47.603901" stroke-opacity="1" stroke-miterlimit="4"/></g></g></g></g><g clip-path="url(#08bfeffed5)"><g clip-path="url(#b85d364ff4)"><g clip-path="url(#244e8eb049)"><path fill="#ffffff" d="M 302.253906 351.695312 L 434.828125 506.644531 L 271.402344 646.46875 L 138.828125 491.519531 Z M 302.253906 351.695312 " fill-opacity="1" fill-rule="nonzero"/></g></g></g><g clip-path="url(#0d3c0a7b2d)"><g clip-path="url(#a4232e2585)"><g clip-path="url(#7171a13498)"><path fill="#0097b2" d="M 299.425781 342.296875 L 312.363281 357.417969 L 297.242188 370.351562 L 284.304688 355.234375 Z M 299.425781 342.296875 " fill-opacity="1" fill-rule="nonzero"/></g></g></g><g fill="#0097b2" fill-opacity="1"><g transform="translate(404.999983, 437.999998)"><g><path d="M 44.484375 -1.703125 C 44.484375 -0.59375 45.0625 0 45.953125 0 L 55.421875 0 C 56.34375 0 56.890625 -0.734375 56.890625 -1.703125 L 56.890625 -34.328125 C 56.890625 -44.875 51.078125 -50.921875 40.625 -50.921875 L 40.234375 -50.921875 C 35.984375 -50.921875 32.375 -49.3125 30.03125 -45.796875 C 27.640625 -49.359375 23.96875 -50.921875 19.625 -50.921875 L 19.28125 -50.921875 C 11.8125 -50.921875 3.328125 -47.796875 2.9375 -34.671875 L 2.9375 -1.65625 C 2.9375 -0.640625 3.421875 0 4.34375 0 L 13.8125 0 C 14.75 0 15.28125 -0.78125 15.28125 -1.65625 L 15.28125 -34.375 C 15.28125 -38.578125 17 -39.84375 19 -39.984375 L 19.34375 -39.984375 C 21.1875 -39.984375 23.53125 -38.8125 23.6875 -34.671875 L 23.6875 -1.703125 C 23.6875 -0.59375 24.265625 0 25.140625 0 L 34.625 0 C 35.546875 0 36.078125 -0.734375 36.078125 -1.703125 L 36.078125 -34.8125 C 36.078125 -38.625 37.84375 -39.890625 39.9375 -39.984375 L 40.578125 -39.984375 C 42.53125 -39.84375 44.4375 -38.578125 44.484375 -35.015625 Z M 44.484375 -1.703125 "/></g></g></g><g fill="#0097b2" fill-opacity="1"><g transform="translate(464.76327, 437.999998)"><g><path d="M 23.640625 -18.40625 C 23.640625 -16.015625 21.96875 -13.375 19.28125 -13.375 C 16.609375 -13.375 14.890625 -15.4375 14.890625 -17.71875 L 14.890625 -48.34375 C 14.890625 -49.421875 14.3125 -50 13.484375 -50 L 4 -50 C 3.171875 -50 2.546875 -49.421875 2.546875 -48.34375 L 2.546875 -17.625 C 2.546875 -8.40625 8.34375 -2.546875 16.3125 -2.546875 C 18.796875 -2.546875 21.296875 -3.328125 23.640625 -4.6875 L 23.640625 -1.953125 C 23.640625 3.46875 20.21875 5.078125 16.609375 5.078125 C 13.96875 5.078125 10.546875 3.859375 8.546875 2.4375 C 8.15625 2.15625 7.765625 1.953125 7.375 1.953125 C 6.984375 1.953125 6.640625 2.203125 6.34375 2.6875 L 3.65625 8.59375 C 3.171875 9.46875 3.46875 10.5 4.390625 11.078125 C 7.46875 13.375 12.453125 15.140625 18.453125 15.140625 C 29.890625 15.140625 35.984375 8.453125 35.984375 -1.65625 L 35.984375 -48.34375 C 35.984375 -49.421875 35.296875 -50 34.515625 -50 L 25.484375 -50 C 24.953125 -50 23.640625 -49.421875 23.640625 -47.859375 Z M 23.640625 -18.40625 "/></g></g></g><g fill="#000000" fill-opacity="1"><g transform="translate(288.007782, 437.999998)"><g><path d="M 16.5 -65.671875 C 16.5 -66.84375 16.015625 -67.578125 14.890625 -67.578125 L 5.125 -67.578125 C 4.109375 -67.578125 3.515625 -66.84375 3.515625 -65.671875 L 3.515625 -1.859375 C 3.515625 -0.6875 4 0 5.125 0 L 14.890625 0 C 16.015625 0 16.5 -0.6875 16.5 -1.859375 Z M 16.5 -65.671875 "/></g></g></g><g fill="#000000" fill-opacity="1"><g transform="translate(308.075362, 437.999998)"><g><path d="M 22.609375 -29.109375 C 16.359375 -32.46875 14.109375 -33.0625 14.109375 -36.140625 C 14.109375 -38.484375 15.71875 -40.375 18.265625 -40.375 C 20.65625 -40.375 22.46875 -38.71875 22.46875 -36.328125 L 22.46875 -35.640625 C 22.46875 -34.71875 22.859375 -34.1875 23.96875 -34.1875 L 31.6875 -34.1875 C 33.0625 -34.1875 33.546875 -34.28125 33.546875 -35.296875 L 33.546875 -36.140625 C 33.546875 -44.875 28.078125 -50.921875 17.71875 -50.921875 C 8.5 -50.921875 1.859375 -44.625 1.859375 -36.375 C 1.859375 -29.78125 5.609375 -25.59375 10.796875 -22.46875 C 15.875 -19.140625 22.015625 -17.234375 22.015625 -13.765625 C 22.015625 -11.234375 19.921875 -9.671875 17.53125 -9.671875 C 15.140625 -9.671875 13.03125 -11.140625 13.03125 -13.578125 L 13.03125 -14.5 C 13.03125 -15.53125 12.59375 -16.015625 11.765625 -16.015625 L 3.765625 -16.015625 C 2.25 -16.015625 1.375 -15.625 1.375 -14.59375 L 1.375 -13.921875 C 1.375 -6.296875 4.546875 0.921875 18.015625 0.921875 C 27.828125 0.921875 34.375 -5.171875 34.375 -13.71875 C 34.375 -20.3125 29.59375 -25.4375 22.609375 -29.109375 Z M 22.609375 -29.109375 "/></g></g></g><g fill="#000000" fill-opacity="1"><g transform="translate(343.816151, 437.999998)"><g><path d="M 22.3125 -9.28125 C 22.3125 -9.96875 22.265625 -11.078125 20.796875 -11.078125 L 19.96875 -11.078125 C 16.40625 -11.078125 15.328125 -12.59375 15.328125 -15.328125 L 15.328125 -65.921875 C 15.328125 -66.9375 14.796875 -67.578125 13.71875 -67.578125 L 4.59375 -67.578125 C 3.515625 -67.578125 2.9375 -66.9375 2.9375 -65.921875 L 2.9375 -14.59375 C 2.9375 -3.171875 9.03125 0 16.5 0 L 19.578125 0 C 22.171875 0 22.3125 -0.875 22.3125 -1.5625 Z M 22.3125 -9.28125 "/></g></g></g><g fill="#000000" fill-opacity="1"><g transform="translate(367.496871, 437.999998)"><g><path d="M 23.09375 -14.5 C 23.09375 -11.28125 20.796875 -9.90625 18.75 -9.90625 C 16.546875 -9.90625 14.015625 -11.421875 14.015625 -15.1875 L 14.015625 -15.921875 C 14.015625 -19.09375 15.484375 -21.921875 20.796875 -21.921875 L 23.09375 -21.921875 Z M 17.328125 -30.765625 C 9.078125 -30.8125 1.65625 -26.421875 1.65625 -16.0625 L 1.65625 -14.984375 C 1.65625 -3.65625 10.9375 0.921875 18.609375 0.921875 C 23.828125 0.921875 35.40625 -1.90625 35.40625 -14.0625 L 35.40625 -35.359375 C 35.40625 -45.515625 27 -50.921875 18.953125 -50.921875 C 12.109375 -50.921875 8.296875 -48.875 4.734375 -46.6875 C 3.078125 -45.703125 3.265625 -44.734375 3.71875 -43.796875 L 6.15625 -38.375 C 6.390625 -37.9375 6.6875 -37.75 7.078125 -37.75 C 7.515625 -37.75 8.015625 -37.984375 8.5 -38.28125 C 10.296875 -39.59375 12.9375 -40.875 16.9375 -40.875 C 21.34375 -40.875 23.09375 -37.15625 23.09375 -34.1875 L 23.09375 -30.71875 Z M 17.328125 -30.765625 "/></g></g></g></svg>
           </div>
 
-          <div>
-            <p class="font-medium text-gray-900">Company</p>
+          <div class=" grid grid-cols-1 gap-8 sm:grid-cols-3" style="margin-top: -100px">
+            <div>
+              <p class="font-medium text-gray-900">Services</p>
 
-            <ul class="mt-6 space-y-4 text-sm">
-              <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75"> About </a>
-              </li>
+              <ul class="mt-6 space-y-4 text-sm">
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> 1on1 Coaching </a>
+                </li>
 
-              <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75"> Meet the Team </a>
-              </li>
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> Company Review </a>
+                </li>
 
-              <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
-              </li>
-            </ul>
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> HR Consulting </a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> SEO Optimisation </a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <p class="font-medium text-gray-900">Company</p>
+
+              <ul class="mt-6 space-y-4 text-sm">
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> About </a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> Meet the Team </a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <p class="font-medium text-gray-900">Helpful Links</p>
+
+              <ul class="mt-6 space-y-4 text-sm">
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> Contact </a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> FAQs </a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-gray-700 transition hover:opacity-75"> Live Chat </a>
+                </li>
+              </ul>
+            </div>
           </div>
 
-          <div>
-            <p class="font-medium text-gray-900">Helpful Links</p>
-
-            <ul class="mt-6 space-y-4 text-sm">
+          <div class="mt-8 border-t border-gray-100 pt-8">
+            <ul class="flex flex-wrap gap-4 text-xs">
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75"> Contact </a>
+                <a href="#" class="text-gray-500 transition hover:opacity-75"> Terms & Conditions </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75"> FAQs </a>
+                <a href="#" class="text-gray-500 transition hover:opacity-75"> Privacy Policy </a>
               </li>
 
               <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75"> Live Chat </a>
+                <a href="#" class="text-gray-500 transition hover:opacity-75"> Cookies </a>
               </li>
             </ul>
-          </div>
 
-          <div>
-            <p class="font-medium text-gray-900">Legal</p>
-
-            <ul class="mt-6 space-y-4 text-sm">
-              <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75"> Accessibility </a>
-              </li>
-
-              <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75"> Returns Policy </a>
-              </li>
-
-              <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75"> Refund Policy </a>
-              </li>
-
-              <li>
-                <a href="#" class="text-gray-700 transition hover:opacity-75"> Hiring Statistics </a>
-              </li>
-            </ul>
+            <p class="mt-8 text-xs text-gray-500">&copy; 2022. Company Name. All rights reserved.</p>
           </div>
         </div>
       </div>
-
-      <p class="text-xs text-gray-500">&copy; 2022. Company Name. All rights reserved.</p>
     </div>
   </footer>

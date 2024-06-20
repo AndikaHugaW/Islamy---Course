@@ -21,6 +21,10 @@ Route::get('/2', function () {
     return view('courses');
 });
 
+Route::get('/5', function () {
+    return view('details-course');
+});
+
 Route::get('/3', function () {
     return view('blog');
 });
