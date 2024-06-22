@@ -18,15 +18,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/2', function () {
+    return view('courses');
+});
 
-// admin
-Route::middleware('auth', 'admin')->group(function () {
-    Route::get('/post', [HomeController::class, 'post'])->name('post');
-
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+Route::get('/3', function () {
+    return view('blog');
 });
 
 // user

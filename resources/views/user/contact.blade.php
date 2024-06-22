@@ -11,84 +11,131 @@
 
 <body>
 
+    <section>
+        <div class="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+          <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+            <div class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+              <img
+                alt=""
+                src="https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="absolute inset-0 h-full w-full object-cover"
+              />
+            </div>
 
-    <div class=" bg-white px-6 py-24 sm:py-32 lg:px-8">
-        <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]" aria-hidden="true">
-        <div class="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-        </div>
-        <div class="mx-auto max-w-2xl text-center">
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact</h2>
-        <p class="mt-2 text-lg leading-8 text-gray-600">Beri Saran dan Masukan Untuk Kami Terima Kasih</p>
-        </div>
-        <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
-        <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
-            <div>
-            <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">First name</label>
-            <div class="mt-2.5">
-                <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
-            </div>
-            </div>
-            <div>
-            <label for="last-name" class="block text-sm font-semibold leading-6 text-gray-900">Last name</label>
-            <div class="mt-2.5">
-                <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
-            </div>
-            </div>
-            <div class="sm:col-span-2">
-            <label for="company" class="block text-sm font-semibold leading-6 text-gray-900">Company</label>
-            <div class="mt-2.5">
-                <input type="text" name="company" id="company" autocomplete="organization" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
-            </div>
-            </div>
-            <div class="sm:col-span-2">
-            <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
-            <div class="mt-2.5">
-                <input type="email" name="email" id="email" autocomplete="email" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
-            </div>
-            </div>
-            <div class="sm:col-span-2">
-            <label for="phone-number" class="block text-sm font-semibold leading-6 text-gray-900">Phone number</label>
-            <div class="relative mt-2.5">
-                <div class="absolute inset-y-0 left-0 flex items-center">
-                <label for="country" class="sr-only">Country</label>
-                <select id="country" name="country" class="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm">
-                    <option>US</option>
-                    <option>CA</option>
-                    <option>EU</option>
-                </select>
-                <svg class="pointer-events-none absolute right-3 top-0 h-full w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
-                </svg>
+            <div class="lg:py-52">
+              <h2 class="text-3xl font-bold sm:text-4xl">Contact</h2>
+
+              <p class="mt-4 text-gray-600">
+                Kami senang mendengar dari Anda! Jika Anda memiliki pertanyaan, komentar, atau membutuhkan bantuan, jangan ragu untuk menghubungi kami. Tim kami siap membantu Anda..
+              </p>
+
+              <form action="#" class="mt-8 grid grid-cols-6 gap-6">
+                <div class="col-span-6 sm:col-span-3">
+                  <label for="FirstName" class="block text-sm font-medium text-gray-700">
+                    First Name
+                  </label>
+
+                  <input
+                    type="text"
+                    id="FirstName"
+                    name="first_name"
+                    class="mt-2 w-full rounded-md py-3 border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                  />
                 </div>
-                <input type="tel" name="phone-number" id="phone-number" autocomplete="tel" class="block w-full rounded-md border-0 px-3.5 py-2 pl-20 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+
+                <div class="col-span-6 sm:col-span-3">
+                  <label for="LastName" class="block text-sm font-medium text-gray-700">
+                    Last Name
+                  </label>
+
+                  <input
+                    type="text"
+                    id="LastName"
+                    name="last_name"
+                    class="mt-2 w-full rounded-md py-2 border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                  />
+                </div>
+
+                <div class="col-span-6">
+                  <label for="Email" class="block text-sm font-medium text-gray-700"> Email </label>
+
+                  <input
+                    type="email"
+                    id="Email"
+                    name="email"
+                    class="mt-2 w-full rounded-md py-3 border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                  />
+                </div>
+
+                <div class="col-span-6 sm:col-span-6">
+                  <label for="Password" class="block text-sm font-medium text-gray-700"> Nomor HP </label>
+
+                  <input
+                    type="number"
+                    id="NoHP"
+                    name="Nomor HP"
+                    class="mt-2 w-full rounded-md py-3 border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                  />
+                </div>
+
+                <div class="col-span-6 sm:col-span-6">
+                    <label for="OrderNotes" class=" block text-sm font-medium text-gray-700">Order notes</label>
+
+                    <div class="overflow-hidden">
+                    <textarea
+                        id="OrderNotes"
+                        class="w-full resize-none py-3 border-x-0 border-t-0 border-gray-200 mt-2 px-0 align-top sm:text-sm"
+                        rows="4"
+                        placeholder="Enter any additional order notes..."
+                    ></textarea>
+
+                    <div class="flex items-center justify-end gap-2 py-3">
+                        <button
+                        type="button"
+                        class="rounded bg-gray-200 px-3 py-1.5 text-sm font-medium text-gray-700 hover:text-gray-600"
+                        >
+                        Clear
+                        </button>
+
+                        <button
+                        type="button"
+                        class="rounded bg-indigo-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-indigo-700"
+                        >
+                        Add
+                        </button>
+                    </div>
+                    </div>
+                </div>
+
+
+                <div class="col-span-6">
+                  <label for="MarketingAccept" class="flex gap-4">
+                    <input
+                      type="checkbox"
+                      id="MarketingAccept"
+                      name="marketing_accept"
+                      class="size-5 rounded-md border-gray-200 bg-white shadow-sm"
+                    />
+
+                    <span class="text-sm text-gray-700">
+                      I want to receive emails about events, product updates and company announcements.
+                    </span>
+                  </label>
+                </div>
+
+                <div class="col-span-6 sm:flex sm:items-center sm:gap-4">
+                  <button
+                    class="inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500"
+                  >
+                    Create an account
+                  </button>
+
+                </div>
+              </form>
             </div>
-            </div>
-            <div class="sm:col-span-2">
-            <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Message</label>
-            <div class="mt-2.5">
-                <textarea name="message" id="message" rows="4" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
-            </div>
-            </div>
-            <div class="flex gap-x-4 sm:col-span-2">
-            <div class="flex h-6 items-center">
-                <!-- Enabled: "bg-indigo-600", Not Enabled: "bg-gray-200" -->
-                <button type="button" class="flex w-8 flex-none cursor-pointer rounded-full bg-gray-200 p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" role="switch" aria-checked="false" aria-labelledby="switch-1-label">
-                <span class="sr-only">Agree to policies</span>
-                <!-- Enabled: "translate-x-3.5", Not Enabled: "translate-x-0" -->
-                <span aria-hidden="true" class="h-4 w-4 translate-x-0 transform rounded-full bg-white shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out"></span>
-                </button>
-            </div>
-            <label class="text-sm leading-6 text-gray-600" id="switch-1-label">
-                By selecting this, you agree to our
-                <a href="#" class="font-semibold text-indigo-600">privacy&nbsp;policy</a>.
-            </label>
-            </div>
+          </div>
         </div>
-        <div class="mt-10">
-            <button type="submit" class="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Let's talk</button>
-        </div>
-        </form>
-    </div>
+      </section>
 
 </body>
 <!-- Footer -->
