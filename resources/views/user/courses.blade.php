@@ -476,7 +476,7 @@
                     />
 
                     <div class="relative border border-gray-100 bg-white p-6">
-                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">Islami</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-purple-400">Islami</span>
                       <h3 class="mt-4 text-lg font-medium text-gray-900">Baca Tulis Al - Quran</h3>
 
                       <p class="mt-1.5 text-sm text-gray-700">Free</p>
@@ -523,7 +523,7 @@
                     />
 
                     <div class="relative border border-gray-100 bg-white p-6">
-                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">Islami</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-purple-400">Islami</span>
 
                       <h3 class="mt-4 text-lg font-medium text-gray-900">Aqidah dan Akhlak</h3>
 
@@ -571,7 +571,7 @@
                     />
 
                     <div class="relative border border-gray-100 bg-white p-6">
-                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">Islami</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-purple-400">Islami</span>
 
                       <h3 class="mt-4 text-lg font-medium text-gray-900">Fiqh Puasa</h3>
 
@@ -619,7 +619,7 @@
                     />
 
                     <div class="relative border border-gray-100 bg-white p-6">
-                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">Islami</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-purple-400">Islami</span>
 
                       <h3 class="mt-4 text-lg font-medium text-gray-900">Fiqh Puasa</h3>
 
@@ -667,7 +667,7 @@
                     />
 
                     <div class="relative border border-gray-100 bg-white p-6">
-                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">Islami</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-purple-400">Islami</span>
 
                       <h3 class="mt-4 text-lg font-medium text-gray-900">Fiqh Puasa</h3>
 
@@ -715,7 +715,7 @@
                     />
 
                     <div class="relative border border-gray-100 bg-white p-6">
-                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">Islami</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-purple-400">Islami</span>
 
                       <h3 class="mt-4 text-lg font-medium text-gray-900">Fiqh Puasa</h3>
 
@@ -763,7 +763,7 @@
                     />
 
                     <div class="relative border border-gray-100 bg-white p-6">
-                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">Islami</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-purple-400">Islami</span>
 
                       <h3 class="mt-4 text-lg font-medium text-gray-900">Fiqh Puasa</h3>
 
@@ -811,7 +811,7 @@
                     />
 
                     <div class="relative border border-gray-100 bg-white p-6">
-                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">Islami</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-purple-400">Islami</span>
 
                       <h3 class="mt-4 text-lg font-medium text-gray-900">Fiqh Puasa</h3>
 
@@ -859,7 +859,7 @@
                     />
 
                     <div class="relative border border-gray-100 bg-white p-6">
-                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">Islami</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-purple-400">Islami</span>
 
                       <h3 class="mt-4 text-lg font-medium text-gray-900">Fiqh Puasa</h3>
 
@@ -907,7 +907,7 @@
                     />
 
                     <div class="relative border border-gray-100 bg-white p-6">
-                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">Islami</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-purple-400">Islami</span>
 
                       <h3 class="mt-4 text-lg font-medium text-gray-900">Fiqh Puasa</h3>
 
@@ -955,7 +955,7 @@
                     />
 
                     <div class="relative border border-gray-100 bg-white p-6">
-                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">Islami</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-purple-400">Islami</span>
 
                       <h3 class="mt-4 text-lg font-medium text-gray-900">Fiqh Puasa</h3>
 
@@ -1003,7 +1003,7 @@
                     />
 
                     <div class="relative border border-gray-100 bg-white p-6">
-                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-purple-400 border border-purple-400">Islami</span>
+                        <span class="bg-purple-100 text-purple-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded border border-purple-400">Islami</span>
 
                       <h3 class="mt-4 text-lg font-medium text-gray-900">Fiqh Puasa</h3>
 

@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,27 +14,30 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
 Route::get('/', function () {
-    return view('home');
+    return view('welcome');
 });
 
-Route::get('/2', function () {
-    return view('courses');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
+
+// admin
+Route::middleware('auth', 'admin')->group(function () {
+    Route::get('/post', [HomeController::class, 'post'])->name('post');
+
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::get('/3', function () {
-    return view('blog');
+// user
+Route::middleware('auth', 'user')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+
+    Route::get('/blog', [HomeController::class, 'blog'])->name('blog');
+    Route::get('/courses', [HomeController::class, 'courses'])->name('courses');
+    Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 });
 
-Route::get('/4', function () {
-    return view('contact');
-});
-
-Route::get('/masuk', function () {
-    return view('login');
-});
-
-Route::get('/daftar', function () {
-    return view('register');
-});
+require __DIR__.'/auth.php';
