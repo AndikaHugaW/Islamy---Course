@@ -10,6 +10,6 @@ class Course extends Model
     use HasFactory;
 
     protected $table = 'courses';
-    protected $fillable = ['judul_course', 'nama_pemateri', 'link_course', 'text_materi'];
+    protected $fillable = ['judul_course', 'nama_pemateri', 'link_course', 'text_materii'];
     protected $primarykey = 'id_course';
 }
