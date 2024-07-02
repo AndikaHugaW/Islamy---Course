@@ -820,7 +820,7 @@
                       <form class="mt-4">
                         <button
                           class="block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105"
-                        >
+
                           Join Sekarang
                         </button>
                       </form>
@@ -828,7 +828,7 @@
                   </a>
             </li>
 
-            <!-- Card Pertama -->
+            <!-- Card Kedua -->
             <li>
                 <a href="#" class="group relative block overflow-hidden">
                     <button
