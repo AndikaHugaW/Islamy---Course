@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('judul_course');
             $table->string('nama_pemateri');
             $table->string('link_course');
-            $table->text('text_materii');
+            $table->text('text_materi');
             $table->timestamps();
         });
     }
