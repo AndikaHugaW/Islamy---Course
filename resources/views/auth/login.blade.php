@@ -81,7 +81,7 @@
                         </div>
 
                         <p class="text-sm font-light text-gray-500">
-                            Belum memiliki akun? <a href="/daftar" class="font-bold text-gray-400 hover:underline">Daftar</a>
+                            Belum memiliki akun? <a href="{{ route('daftar') }}" class="font-bold text-gray-400 hover:underline">Daftar</a>
                         </p>
                     </form>
                 </div>
