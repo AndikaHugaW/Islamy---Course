@@ -15,8 +15,14 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+<<<<<<< HEAD
 Route::get('/', [AuthController::class, 'login']);
 Route::get('/daftar', [AuthController::class, 'register'])->name('daftar');
+=======
+Route::get('/', function () {
+    return view('home');
+});
+>>>>>>> be5abcdb9f9b6f20ac89dfa252ea3841726a4342
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
