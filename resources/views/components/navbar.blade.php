@@ -78,10 +78,37 @@
                 </svg>
           </button>
 
-        <!-- Login Button -->
+          <ul style="list-style-type: none; margin: 2px; padding: 0; display: flex; justify-content: flex-end;">
+            @if(Auth::check())
+              <li class="inline-block rounded border border-current px-8 py-3 text-sm font-medium text-blue-600 transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:text-blue-500 mr-5 mx-5">Welcome, {{ Auth::user()->name }}!!!</li>
+              <li>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                  @csrf
+                </form>
+                <a class="inline-block rounded bg-blue-600 px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-red-500" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();" style="background-color: red;">
+                  Logout
+                </a>
+              </li>
+            @else
+              <li class="mx-2"><a
+                class="inline-block rounded bg-blue-600 px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-blue-500"
+                href="{{ route('login') }}"
+                >
+                Login
+                </a></li>
+              <li><a
+                class="inline-block rounded border border-current px-8 py-3 text-sm font-medium text-blue-600 transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:text-blue-500"
+                href="{{ route('register') }}"
+                >
+                Register
+                </a></li>
+            @endif
+          </ul>
+
+        {{-- <!-- Login Button -->
         <a
         class="inline-block rounded bg-blue-600 px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-blue-500"
-        href="#"
+        href="{{ route('login') }}"
         >
         Login
         </a>
@@ -89,10 +116,10 @@
         <!-- Register Button -->
         <a
         class="inline-block rounded border border-current px-8 py-3 text-sm font-medium text-blue-600 transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:text-blue-500"
-        href="#"
+        href="{{ route('register') }}"
         >
         Register
-        </a>
+        </a> --}}
 
         </div>
         <div class="-mr-2 flex items-center sm:hidden">
