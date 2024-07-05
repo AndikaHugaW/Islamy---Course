@@ -21,8 +21,8 @@ Route::get('/login', [AuthController::class, 'login'])->name('login');
 Route::get('/register', [AuthController::class, 'register'])->name('register');
 
 Route::middleware('auth')->group(function () {
+    
     Route::get('/home', [HomeController::class, 'index'])->name('home');
-
     // Admin
     Route::middleware('admin')->group(function () {
         

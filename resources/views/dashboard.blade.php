@@ -97,7 +97,7 @@
                       Di bidangnya Untuk Mencapai Potensi Maksimal Mereka.
                     </p>
 
-                    <p class="mt-8 font-bold">Read more</p>
+                    <p class="mt-8 font-bold">Read moree</p>
                   </div>
                 </div>
               </a>
