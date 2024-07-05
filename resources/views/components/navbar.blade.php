@@ -16,7 +16,7 @@
         </div>
         <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
           <p class="text-sm leading-6 text-gray-900">
-            <strong class="font-semibold">ISLAMY 2024</strong><svg viewBox="0 0 2 2" class="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true"><circle cx="1" cy="1" r="1" /></svg>Join kursus sekarang selagi masih gratis.
+            <strong class="font-semibold">ISLAMY 2024</strong><svg viewBox="0 0 2 2" class="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true"><circle cx="1" cy="1" r="1" /></svg>Join kursus sekarang selagi masih gratiss.
           </p>
           <a href="#" class="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">Join now <span aria-hidden="true">&rarr;</span></a>
         </div>
@@ -78,10 +78,41 @@
                 </svg>
           </button>
 
-        <!-- Login Button -->
+          <ul style="list-style-type: none; margin: 2px; padding: 0; display: flex; justify-content: flex-end;">
+            @if(Auth::check())
+              <li class="inline-block rounded border border-current px-8 py-3 text-sm font-medium text-blue-600 transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:text-blue-500 mr-5 mx-5">Welcome, {{ Auth::user()->name }}!!!</li>
+              <li>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                  @csrf
+                </form>
+                <a class="inline-block rounded bg-blue-600 px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-red-500" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();" style="background-color: red;">
+                  Logout
+                </a>
+              </li>
+            @else
+              <li class="mx-2"><a
+                class="inline-block rounded bg-blue-600 px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-blue-500"
+                href="{{ route('login') }}"
+                >
+                Login
+                </a></li>
+              <li><a
+                class="inline-block rounded border border-current px-8 py-3 text-sm font-medium text-blue-600 transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:text-blue-500"
+                href="{{ route('register') }}"
+                >
+                Register
+                </a></li>
+            @endif
+          </ul>
+
+        {{-- <!-- Login Button -->
         <a
         class="inline-block rounded bg-blue-600 px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-blue-500"
+<<<<<<< HEAD
         href="{{route('login')}}"
+=======
+        href="{{ route('login') }}"
+>>>>>>> fe183e661040cdeb6eee516dfcdda53a7c72cd54
         >
         Login
         </a>
@@ -89,10 +120,14 @@
         <!-- Register Button -->
         <a
         class="inline-block rounded border border-current px-8 py-3 text-sm font-medium text-blue-600 transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:text-blue-500"
+<<<<<<< HEAD
         href="{{route('daftar')}}"
+=======
+        href="{{ route('register') }}"
+>>>>>>> fe183e661040cdeb6eee516dfcdda53a7c72cd54
         >
         Register
-        </a>
+        </a> --}}
 
         </div>
         <div class="-mr-2 flex items-center sm:hidden">
