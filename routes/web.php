@@ -19,11 +19,15 @@ Route::get('/', function () {
 });
 
 Route::get('/2', function () {
-    return view('courses');
+    return view('user.courses');
 });
 
 Route::get('/3', function () {
-    return view('blog');
+    return view('user.blog');
+});
+
+Route::get('/4', function () {
+    return view('user.contact');
 });
 
 // user
