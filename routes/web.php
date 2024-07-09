@@ -40,6 +40,7 @@ Route::middleware('auth')->group(function () {
         Route::get('/blog', [HomeController::class, 'blog'])->name('blog');
         Route::get('/courses', [HomeController::class, 'courses'])->name('courses');
         Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+        Route::get('/detailcourse', [HomeController::class, 'detailcourses'])->name('detailcourses');
     });
 });
 
