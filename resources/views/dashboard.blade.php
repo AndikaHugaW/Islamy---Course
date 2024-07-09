@@ -263,7 +263,7 @@
           <ul class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <!-- Card Pertama -->
             <li>
-                <a href="#" class="group relative block overflow-hidden">
+                <a href="{{ route('login') }}" class="group relative block overflow-hidden">
                     <button
                       class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
                     >
@@ -298,7 +298,7 @@
 
                       <p class="mt-1.5 text-sm text-gray-700">Free</p>
 
-                      <form class="mt-4">
+                      <form action="{{ route('login') }}" class="mt-4">
                         <button
                           class="block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105"
                         >
@@ -311,7 +311,7 @@
 
             <!-- Card Ke 2 -->
             <li>
-                <a href="#" class="group relative block overflow-hidden">
+                <a href="{{ route('login') }}" class="group relative block overflow-hidden">
                     <button
                       class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
                     >
@@ -346,7 +346,7 @@
 
                       <p class="mt-1.5 text-sm text-gray-700">Free</p>
 
-                      <form class="mt-4">
+                      <form action="{{ route('login') }}" class="mt-4">
                         <button
                           class="block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105"
                         >
@@ -359,7 +359,7 @@
 
             <!-- Card Ke 3 -->
             <li>
-                <a href="#" class="group relative block overflow-hidden">
+                <a href="{{ route('login') }}" class="group relative block overflow-hidden">
                     <button
                       class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
                     >
@@ -394,7 +394,7 @@
 
                       <p class="mt-1.5 text-sm text-gray-700">Free</p>
 
-                      <form class="mt-4">
+                      <form action="{{ route('login') }}" class="mt-4">
                         <button
                           class="block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105"
                         >
@@ -407,7 +407,7 @@
 
             <!-- Card Ke 4 -->
             <li>
-                <a href="#" class="group relative block overflow-hidden">
+                <a href="{{ route('login') }}" class="group relative block overflow-hidden">
                     <button
                       class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
                     >
@@ -442,7 +442,7 @@
 
                       <p class="mt-1.5 text-sm text-gray-700">Free</p>
 
-                      <form class="mt-4">
+                      <form action="{{ route('login') }}" class="mt-4">
                         <button
                           class="block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105"
                         >

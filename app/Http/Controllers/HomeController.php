@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-use APP\Models\User;
+use App\Models\User;
+use App\Models\Course;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 
@@ -34,5 +35,20 @@ class HomeController extends Controller
 
    public function courses(){
     return view('user.courses');
+   }
+   public function detailcourses(){
+    $courses = Course::all();
+    return view('details-course', compact('courses'));
+   }
+
+   public function user(){
+    $users = User::all();
+
+    return view('admin.user', compact('users'));
+   }
+
+   public function coursesadmin(){
+    $courses = Course::all();
+    return view('admin.courses', compact('courses'));
    }
 }

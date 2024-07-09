@@ -10,20 +10,13 @@
 
 <body>
 
+  @foreach($courses as $course)
     <section class="container mx-auto col-span-2 px-4 mt-6">
+      <iframe width="560" height="315" src="{{ $course->link_course }}" frameborder="0" allowfullscreen></iframe>
         <div class="w-full lg:w-2/3">
-
-            <video class="h-full w-full rounded-lg" controls>
-                <source
-                  src="https://docs.material-tailwind.com/demo.mp4"
-                  type="video/mp4"
-                />
-            </video>
-
             <div class="mx-auto justify-start rounded-lg p-5">
-
                 <!-- Judul Vidio -->
-                <h1 class="text-2xl mt-2 font-sans font-bold mb-2">Baca Tulis Al - Quran</h1>
+                <h1 class="text-2xl mt-2 font-sans font-bold mb-2">{{ $course->judul_course }}</h1>
 
                 <!-- Nama Pemateri -->
                 <div class="flex items-center mt-4 gap-4">
@@ -31,7 +24,7 @@
                       class="inline-block relative object-cover object-center !rounded-full w-12 h-12" />
                     <div>
                       <h6 class="block font-sans  text-base antialiased font-semibold leading-relaxed tracking-normal text-inherit">
-                        Ustadz Hanan Ataqi
+                        {{ $course->nama_pemateri }}
                       </h6>
                       <p class="block font-sans text-sm antialiased font-normal leading-normal text-gray-700">
                         Pemateri Baca Tulis Al - Quran
@@ -40,9 +33,9 @@
                   </div>
 
                 <!-- Deskripsi -->
-                <p class="mt-6 text-gray-700 font-sans font-semibold text-xl">Deskripsi Vidio</p>
-                <p class="text-gray-400 mt-1 text-sm font-sans">Kursus ini dirancang untuk membantu peserta belajar membaca dan menulis Al-Quran dengan benar sesuai tajwid. Melalui pendekatan sistematis dan interaktif, peserta akan mempelajari huruf-huruf hijaiyah, kaidah tajwid, serta pengucapan yang tepat. Kursus ini cocok untuk segala usia dan tingkat kemampuan, mulai dari pemula hingga mereka yang ingin memperbaiki bacaan mereka. Selain itu, kursus ini juga mencakup pemahaman dasar tentang makna ayat-ayat Al-Quran, sehingga peserta tidak hanya bisa membaca dengan baik, tetapi juga memahami pesan-pesan ilahi yang terkandung di dalamnya.</p>
+                <p class="text-gray-400 mt-1 text-sm font-sans">{{ $course->text_materi }}</p>
             </div>
+            
         </div>
 
 
@@ -101,7 +94,7 @@
         </ul>
         <!-- End Alternative Changelog feed -->
     </section>
-
+    @endforeach
 
 
 </body>
