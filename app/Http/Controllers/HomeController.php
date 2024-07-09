@@ -37,7 +37,8 @@ class HomeController extends Controller
     return view('user.courses');
    }
    public function detailcourses(){
-    return view('details-course');
+    $courses = Course::all();
+    return view('details-course', compact('courses'));
    }
 
    public function user(){
