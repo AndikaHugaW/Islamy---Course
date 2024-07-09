@@ -84,12 +84,12 @@ class CourseController extends Controller
      */
     public function destroy(Course $course, $id_course)
     {
-        $course = Course::find($id_course);
+        $course = Course::where('id_course', $id_course);
         if (is_null($course)) {
-            return response()->json(['message' => 'Course not found'], 404);
+            return redirect()->back()->with('error', 'Course not found');
         }
 
         $course->delete();
-        return response()->json(['message' => 'Course deleted successfully']);
+        return redirect()->route('courseadmin')->with('success', 'Course deleted successfully');
     }
 }

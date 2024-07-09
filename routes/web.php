@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\CourseController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
@@ -23,9 +24,11 @@ Route::get('/register', [AuthController::class, 'register'])->name('register');
 Route::middleware('auth')->group(function () {
     
     Route::get('/home', [HomeController::class, 'index'])->name('home');
-    // Admin
-    Route::middleware('admin')->group(function () {
         
+    Route::middleware('admin')->group(function () {
+        Route::get('/user', [HomeController::class, 'user'])->name('user');
+        Route::get('/courseadmin', [HomeController::class, 'coursesadmin'])->name('courseadmin');
+        Route::delete('/courseadmin/{id_course}', [CourseController::class, 'destroy'])->name('hapus');
     });
 
     // User
